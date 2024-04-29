@@ -1,0 +1,18 @@
+.nature_background {
+  background-size: cover;
+  background-position: center;
+  background-image: url('./assets/bakcground.jpg');
+}
+
+.side_form {
+  border-right: rem(1px) solid light-dark(var(--mantine-color-gray-3), var(--mantine-color-dark-7));
+  min-height: rem(900px);
+  min-height: calc(100vh - 100px);
+  min-height: calc(100dvh - 100px);
+  max-width: rem(450px);
+  padding-top: rem(80px);
+
+  @media (max-width: $mantine-breakpoint-sm) {
+    max-width: 100%;
+  }
+}
